@@ -1,0 +1,244 @@
+    html{
+        scroll-behavior: smooth;
+    }
+    .youtube-button {
+        cursor: pointer;
+        background-color: rgb(200, 0, 0);
+        color:white;
+        border: none;
+        border-radius: 2px;
+        height: 36px;
+        width: 100px;
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-top: 5px;
+        transition: opacity 0.2s,
+            color 0.3s,
+            border-color 0.3s,
+            background-color 0.5s,
+            color 0.3s ;
+        vertical-align: top;
+    }
+    .youtube-button:hover{
+        background-color: white;
+        color: rgb(200, 0, 0);
+        border-color: rgb(200, 0, 0);
+        border-style: solid;
+        border-width: 1px;
+    }
+    .youtube-button:active{
+        background-color: white;
+        color: black;
+        border-color: black;
+
+    }
+    .facebook-button {
+        cursor: pointer;
+        background-color: white;
+        color:black;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        height: 40px;
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 8px;
+        margin-top: 5px;
+        transition: opacity 0.2s,
+            border-color 0.3s,
+            color 0.5s ;
+            vertical-align: top;
+
+    }
+    .facebook-button:hover{
+        opacity: 0.75;
+    }
+    .facebook-button:active{
+        border-color:rgb(28, 57, 187);
+        color: blue;
+        opacity: 1;
+    }
+    .tweeter-button{
+        background-color: gold;
+        color :white;
+        border: none;
+        border-radius: 35px;
+        height: 36px;
+        width: 70px;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-top: 5px;
+        font-weight: bold;
+        transition: opacity 0.3s ,
+            box-shadow 0.2s ;
+            vertical-align: top;
+    }
+    .tweeter-button:hover{
+        opacity: 0.60;
+        box-shadow: 5px 5px 10px rgba(255, 255, 0, 0.5);
+    }
+    .tweeter-button:active{
+        color:black;
+        opacity: 1;
+    }
+
+    .div-note{
+        background-color: white ;
+        color:black;
+        border-radius: 10px;
+        box-shadow: 0 0 5px white;
+        transition: box-shadow 1s;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .div-note:hover{
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2)
+    }
+    body{
+        background-color: rgb(87, 197, 198);
+        color: whitesmoke;
+    }
+    .img-aa{
+        border-radius: 50%;
+        transition: border-radius 0.5s ;
+        box-shadow: 0px 0px 10px black;
+        transition: box-shadow 0.5s,
+            border-radius 0.3s;
+    }
+    .img-aa:hover{
+        border-radius: 100%;
+        box-shadow: 0px 0px 10px black;
+        border-radius: 7px;
+    }
+    .img-aa:active{
+        box-shadow: none;
+    }
+    .cls-l{
+        color: whitesmoke;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .cls-l:hover{
+        color: rgb(28, 57, 187);
+        text-decoration: none;
+    }
+    .cls-l:active{
+        color: rgb(200, 0, 0);
+        text-decoration: none;
+    }
+    .t-but{
+        background-color: greenyellow;
+        color:black;
+        border-radius: 2px;
+        box-shadow: 5px 5px 1px black ;
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        cursor: pointer;
+        border:none;
+        transition: box-shadow 0.75s,
+            color  0.3s,
+            background-color 0.3s ;
+        margin-left: 8px ;
+        margin-top: 5px;
+        vertical-align: top;
+    }
+    .t-but:hover{
+        box-shadow: 2px 2px 0px black;
+
+    }
+    .t-but:active{
+        background-color: black;
+        color: greenyellow;
+        box-shadow: 2px 2px 0px greenyellow;
+    }
+    .test{
+        height:50px;
+        width:50px;
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-left: 8px;
+        margin-top: 5px;
+        vertical-align: top;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: palevioletred;
+        font-weight: lighter;
+        color: palevioletred;
+        background-color: white;
+        cursor: pointer;
+        transition: background-color 0.3s,
+            color 0.3s,
+            border-color 0.3s,
+            border-width 0.3s,
+            height 0.3s,
+            width 0.3s,
+            transform 1s;
+
+    }
+    .test:hover{
+        background-color: palevioletred;
+        color: white;
+        border-color: white;
+        border-width: 1px;    
+        height: 50px;
+        width: 50px;
+        transform: rotateX(360deg);
+
+    }
+    .test:active{
+        background-color: black;
+        color: palevioletred;
+        border-color: palevioletred;
+        height: 50px;
+        width: 50px;
+        transform: rotateX(-360deg);
+
+    }
+    .search{
+        border-radius: 5px;
+        border-color: goldenrod;
+        border-width: 1px;
+        color: goldenrod;
+        background-color: black;
+    }
+    .button-74 {
+        background-color: #fbeee0;
+        border: 2px solid #422800;
+        border-radius: 30px;
+        box-shadow: #422800 4px 4px 0 0;
+        color: #422800;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 18px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+      
+      .button-74:hover {
+        background-color: #fff;
+      }
+      
+      .button-74:active {
+        box-shadow: #422800 2px 2px 0 0;
+        transform: translate(2px, 2px);
+      }
+      
+      @media (min-width: 768px) {
+        .button-74 {
+          min-width: 120px;
+          padding: 0 25px;
+        }
+      }
