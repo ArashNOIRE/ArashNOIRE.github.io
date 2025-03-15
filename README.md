@@ -1,2 +1,3 @@
 # time-line
-سلام. من فعلا دارم front-end یاد میگیرم و این اولین پروژه ام هست و هر وقت چیزی جدید یاد بگیرم اینجا اضافه میشه
+Hi. I am currently learning front-end development and this is my first project and I will add to the site whenever I learn something new.
+
