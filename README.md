@@ -15,7 +15,7 @@
 ## نحوه استفاده 🚀
 1. این مخزن را کلون کنید:
    ```bash
-   git clone https://github.com/username/repository-name.git
+   git clone https://github.com/ArashNOIRE/ArashNOIRE.github.io.git
 
 
 ## تکنولوژی‌های استفاده‌شده 🛠️
