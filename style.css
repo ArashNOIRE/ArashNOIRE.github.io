@@ -325,3 +325,25 @@
         box-shadow: none;
         transform: translateY(0);
       }
+
+      @font-face {
+        font-family: 'PersianFont';
+        src: url('./assets/Vazir.ttf') format('tff'),
+    }
+    
+      @font-face {
+        font-family: 'EnglishFont';
+        src: url('./assets/Hack-Regular.ttf') format('tff'),
+    }
+    html {
+        font-family: 'EnglishFont', sans-serif;
+    }
+    
+    [lang="fa"] {
+        font-family: 'PersianFont', sans-serif;
+    }
+
+    
+    
+    
+    
