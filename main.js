@@ -10,6 +10,7 @@ function POP (){
         window.open('https://www.google.com/', '_blank');
     }
 } 
+// ==> for Buttons!
 function git_Game () {
     window.open('https://github.com/ArashNOIRE/Game_Collection', '_blank');
 }
