@@ -1,7 +1,10 @@
     html{
         scroll-behavior: smooth;
+        font-family: 'EnglishFont';
+        font-family: 'PersianFont';
     }
     .youtube-button {
+        font-family: 'EnglishFont';
         cursor: pointer;
         background-color: rgb(200, 0, 0);
         color:white;
@@ -33,6 +36,7 @@
 
     }
     .facebook-button {
+        font-family: 'EnglishFont';
         cursor: pointer;
         background-color: white;
         color:black;
@@ -59,6 +63,7 @@
         opacity: 1;
     }
     .tweeter-button{
+        font-family: 'EnglishFont';
         background-color: gold;
         color :white;
         border: none;
@@ -84,6 +89,7 @@
     }
 
     .div-note{
+        font-family: 'PersianFont';
         background-color: white ;
         color:black;
         border-radius: 10px;
@@ -123,6 +129,7 @@
         box-shadow: none;
     }
     .cls-l{
+        font-family: 'PersianFont';
         color: whitesmoke;
         text-decoration: none;
         transition: color 0.3s;
@@ -136,6 +143,7 @@
         text-decoration: none;
     }
     .t-but{
+        font-family: 'EnglishFont';
         background-color: greenyellow;
         color:black;
         border-radius: 2px;
@@ -163,11 +171,10 @@
         box-shadow: 2px 2px 0px greenyellow;
     }
     .test{
+        font-family: 'EnglishFont';
 		max-width: fit-content;
         height:50px;
         width:50px;
-        padding-right: 2px;
-        padding-left: 2px;
         padding-top: 2px;
         padding-bottom: 2px;
         margin-left: 8px;
@@ -209,6 +216,7 @@
 
     }
     .search{
+        font-family: 'EnglishFont';
         border-radius: 5px;
         border-color: goldenrod;
         border-width: 1px;
@@ -219,6 +227,7 @@
 		margin-right: auto;
     }
     .button-74 {
+        font-family: 'EnglishFont';
         max-width: fit-content;
 		margin-left: auto;
 		margin-right: auto;
@@ -268,6 +277,7 @@
         color: blue;
       }
       .div-projects{
+        font-family: 'PersianFont';
         background-color: white ;
         color:black;
         border-radius: 10px;
@@ -285,6 +295,7 @@
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2)
     }
     .button-23 {
+        font-family: 'EnglishFont';
         appearance: none;
         background-color: #000000;
         border: 2px solid #1A1A1A;
@@ -328,12 +339,12 @@
 
       @font-face {
         font-family: 'PersianFont';
-        src: url('./assets/Vazir.ttf') format('tff'),
+        src: url('./assets/fonts/Vazir.ttf') format('truetype'),
     }
     
       @font-face {
         font-family: 'EnglishFont';
-        src: url('./assets/Hack-Regular.ttf') format('tff'),
+        src: url('./assets/fonts/Hack-Regular.ttf') format('truetype'),
     }
     html {
         font-family: 'EnglishFont', sans-serif;
